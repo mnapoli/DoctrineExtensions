@@ -119,6 +119,18 @@ To setup and run tests follow these steps:
 
 <a name="example-demo"></a>
 
+#### Vagrant
+
+You can also use [Vagrant](http://www.vagrantup.com/) to create a virtual machine ready to use with MongoDB installed:
+
+```bash
+vagrant up
+vagrant ssh
+cd /vagrant
+composer install
+phpunit -c tests
+```
+
 ### Running the example:
 
 To setup and run example follow these steps:
